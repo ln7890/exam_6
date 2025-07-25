@@ -74,8 +74,18 @@
 
 // 9 masala
 
-let MaxMIn = (arr: number[]) => {
-  return Math.max(...arr) - Math.min(...arr);
-};
-let res = MaxMIn([10, 3, 5, 25, 1]);
-console.log(res);
+// let MaxMIn = (arr: number[]) => {
+//   return Math.max(...arr) - Math.min(...arr);
+// };
+// let res = MaxMIn([10, 3, 5, 25, 1]);
+// console.log(res);
+
+// 8 masala
+
+// const message: string = "okay"; // Try edit me
+// let sortAlpha = (a: string) => {
+//   return message.split("").sort().join("");
+// };
+
+// let res = sortAlpha(message);
+// console.log(res);
