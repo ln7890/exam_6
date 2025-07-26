@@ -89,3 +89,23 @@
 
 // let res = sortAlpha(message);
 // console.log(res);
+
+// 5 masala
+
+let arr: number[] = [11, 1, 1, 2, 2, 3, 4, 43];
+
+let singleFrequent = (arrNum: number[]) => {
+  let occurcance = {};
+  let sum: any = 0;
+  for (let elem of arrNum) {
+    occurcance[elem] = (occurcance[elem] || 0) + 1;
+  }
+  for (let key in occurcance) {
+    if (occurcance[key] === 1) {
+      sum += +key;
+    }
+  }
+  return sum;
+};
+let result = singleFrequent(arr);
+console.log(result);
